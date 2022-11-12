@@ -1,15 +1,7 @@
-const tasks = [
-    {
 
-    }
-]
-
-export const Tasks = () => {
+const Tasks = ({ tasks, onDelete, onToggle }) => {
   return (
     <>
-        {tasks.map((task) => (
-            <h3>{task.text}</h3>
-        ))}
     </>
   )
 }
